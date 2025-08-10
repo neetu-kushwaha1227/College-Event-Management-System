@@ -1,2 +1,12 @@
 # College-Event-Management-System
-A web-based system for managing college events, built with HTML, CSS, JavaScript, PHP, and MySQL.
+The College Event Management System helps colleges manage event planning and student registrations efficiently, reducing manual communication and encouraging student participation.
+
+## Features
+- Event creation and management
+- Student registration
+- Admin panel
+
+## Tech Stack
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
