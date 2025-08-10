@@ -1,0 +1,319 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: black;
+ }
+.banner_wraper
+ {
+    height: 100vh;
+    margin-bottom: 36vh;
+    animation: animate 16s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%,100%{
+        background-image: linear-gradient(rgba(10,19,50,0.7),rgba(10,19,50,0.7)),url(Images/eventbg1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  
+    35%{
+        background-image: linear-gradient(rgba(10,19,50,0.7),rgba(10,19,50,0.7)),url(Images/Events.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    45%{
+        background-image: linear-gradient(rgba(10,19,50,0.7),rgba(10,19,50,0.7)),url(Images/eventbg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  
+    
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:black;
+    color: white;
+    padding: 12px;
+   
+}
+
+.navbar a{
+    color:orangered;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 100px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: white;
+
+}
+
+.slogan h4{
+    /*height: 100px;*/
+    text-align: center;
+    padding-top: 290px;
+    color: whitesmoke;
+    font-size: 33px;
+}
+
+.slogan p{
+    /*height: 100px;*/
+    text-align: center;
+    color: orangered;
+    text-shadow: 5px 5px 4px grey;
+    font-size: 55px;
+}
+
+.header-scrolled{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-dark-blue);
+    -webkit-box-shadow:0 4px 6px 0 rgba(12,0,46,.05);
+    box-shadow: 0 4px 6px 0 rgba(12,0,46,.05);
+}
+
+.about{
+    height: 100vh;
+   
+}
+
+.about h1{
+    text-align: center;
+    font-size: 47px;
+    color: white;
+
+}
+
+.aboutme{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 109px;
+}
+
+.aboutme .right-side{
+   
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 23px;
+    color: white;
+    
+}
+
+.aboutme .left-side{
+   
+    text-align: justify;
+    margin-right: 140px;
+    margin-left: 23px;
+    padding: 132px 24px 87px 15px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+
+.event_show{
+    height: 100vh;
+   
+}
+
+.events h1{
+    text-align: center;
+    font-size: 47px;
+    color: white;
+
+}
+
+.container{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.content{
+    padding: 15px;
+   height: 200px;
+
+}
+
+.card .content h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #f20f53;
+}
+
+.contact_us{
+    height: 100vh;
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(42, 41, 41);
+   
+}
+
+.contact_us .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact_us .content h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact_us .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:white;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: orangered
+}
+
+.contactform{
+   width: 40%;
+   padding: 40px;
+   background: whitesmoke;
+   color: black;
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contactform .inputBox input,textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom:2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+
+
+}
+
+.contactform .inputBox input:focus ~ span,
+.contactform .inputBox input:valid ~ span,
+.contactform .inputBox textarea:focus ~ span,
+.contactform .inputBox textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+
+.contactform .inputBox input[type="submit"]{
+    width: 100px;
+    background: lightseagreen;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+footer h1{
+    color: grey;
+    font-size: 17px;
+    height:30px;
+    text-align: center;
+    margin-top: 4px;
+    font-style: oblique;
+}

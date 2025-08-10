@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: arial;
+    text-indent: 10px;
+}
+body{
+    background-color:rgb(62, 59, 59);
+    height: 72vh;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:black;
+    color: white;
+    padding: 12px;
+   
+}
+
+.navbar a{
+    color:orangered;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 100px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: white;
+
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+   margin-top: 200px;
+   /* margin-right: 600px;*/
+}
+
+.container{
+    border: 2px solid darkcyan;
+    border-radius: 39px;
+    padding: 23px;
+    line-height: 1.3;
+    background: burlywood;
+}
+.card h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.form-group{
+    position: relative;
+    margin: 3px 0;
+}
+
+.form-control{
+   width:90%;
+   height: 45px;
+   border: 2px;
+   border-radius: 23px;
+}
+input[type=submit]{
+    width: 100%;
+    height: 46px;
+    border: none;
+    border-radius: 34px;
+    background: blue;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+input[type=submit]:hover{
+    background: green;
+}
+
+.dhome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: chartreuse;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 100px;
+    transition: 1s;
+    cursor: pointer;
+}
+a:hover{
+    color: black;
+
+}

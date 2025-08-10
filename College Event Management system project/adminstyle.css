@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(19, 119, 137);
+ }
+
+ header
+ {
+    height: 100vh;
+    background-image:linear-gradient(rgba(10,19,50,0.7),rgba(10,19,50,0.7)),url(Images/Adminbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(15, 27, 31);
+    color: white;
+    padding: 12px;
+   
+}
+
+.navbar a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 100px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: orangered;
+
+}

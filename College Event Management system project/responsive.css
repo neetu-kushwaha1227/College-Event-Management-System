@@ -1,0 +1,38 @@
+@media(max-width:991px){
+/*2 navbar*/
+ .header-scrolled{
+    height: auto;
+ }
+
+   .home .navbar{
+        
+        background-color: var(--bg-dark-blue);
+        padding:  15px;
+    }
+    .header_Wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+
+
+}
+
+/*Contact page*/
+@media (max-width: 991px)
+{
+    .contact_us{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+    }
+
+    .container .contactInfo{
+        margin-bottom: 40px;
+
+    }
+
+    .container .contactInfo,.contactform{
+        width: 100%;
+
+    }
+}
